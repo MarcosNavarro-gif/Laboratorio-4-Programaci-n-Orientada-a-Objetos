@@ -103,7 +103,7 @@ La clase `Coche` tiene la propiedad `protected $color` con su `setColor()` y `ge
 | Visibilidad `protected` | `$color` es accesible desde la clase hija |
 | Sobrescritura de métodos | `printCaracteristicas()` redefinido en la clase hija |
 
-**Salida:**
+**🖼️ Resultado:**
 
 ```
 Color: negro
@@ -126,7 +126,7 @@ La clase `A` define `miFuncion()`, y dos métodos que la invocan: `otraFuncion()
 | `B::otraFuncion()` (`static::`) | `B` | `static::` se resuelve en tiempo de ejecución según la clase desde la que se llama |
 | `B::otraFuncionSelf()` (`self::`) | `A` | `self::` queda fijo a la clase donde se escribió el método |
 
-**Salida:**
+**🖼️ Resultado:**
 
 ```
 Con static:: -> B
@@ -141,7 +141,7 @@ Con self:: -> A
 
 Se declara `final class Coche` y luego se intenta heredar con `class cocheDeLujo extends Coche`. Una clase `final` **no puede ser extendida**, por lo que PHP detiene la ejecución con un error fatal. **Este error es el resultado esperado del ejercicio.**
 
-**Salida:**
+**🖼️ Resultado:**
 
 ```
 Fatal error: Class cocheDeLujo cannot extend final class Coche in ... on line 11
@@ -162,11 +162,10 @@ La clase `Circulo` recibe un radio (`private float $radio`) en el constructor y 
 | Área | π · 4² | 50.27 |
 | Perímetro | 2 · π · 4 | 25.13 |
 
-**Salida:**
+**🖼️ Resultado:**
 
 ```
-Área del círculo: 	50.27
-Perímetro del círculo: 	 25.13
+Área del círculo: 	50.27 Perímetro del círculo: 	 25.13
 ```
 
 ---
@@ -185,7 +184,7 @@ Perímetro del círculo: 	 25.13
 
 Las propiedades están tipadas (`string`, `float`, `int`) y los getters declaran su tipo de retorno. En `Estudiante`, `estadoAcademico` y `modalidadEstudio` se guardan como códigos numéricos (1 = activo, 2 = presencial).
 
-**Salida de `Docente.php`:**
+**🖼️ Resultado `Docente.php`:**
 
 ```
 El nombre del docente es: María
@@ -198,7 +197,7 @@ El máximo título académico del docente es: Magíster
 El tipo de contratación del docente es: Tiempo Completo
 ```
 
-**Salida de `Estudiante.php`:**
+**🖼️ Resultado `Estudiante.php`:**
 
 ```
 El nombre del estudiante es: Juan
@@ -209,30 +208,6 @@ El cohorte del estudiante es: 2023
 El estado académico del estudiante es: 1
 La modalidad de estudio del estudiante es: 2
 ```
-
-## 🖼️ Resultado
-
-**Problema 1: Coche de lujo**
-
-![Problema 1](assets/problema1.png)
-
-**Problema 2: Late Static Binding**
-
-![Problema 2](assets/problema2.png)
-
-**Problema 3: Error por clase final**
-
-![Problema 3](assets/problema3.png)
-
-**Problema 4: Círculo**
-
-![Problema 4](assets/problema4.png)
-
-**Problema 5: Docente y Estudiante**
-
-![Problema 5 - Docente](assets/problema5_docente.png)
-
-![Problema 5 - Estudiante](assets/problema5_estudiante.png)
 
 ## ⚠️ Dificultades y Soluciones
 
