@@ -105,11 +105,8 @@ La clase `Coche` tiene la propiedad `protected $color` con su `setColor()` y `ge
 
 **🖼️ Resultado:**
 
-```
-Color: negro
------------------
-Extras: TV
-```
+<img width="533" height="79" alt="image" src="https://github.com/user-attachments/assets/9b8890f1-ce9a-4dd8-bcac-d0167f469a8c" />
+
 
 *(El separador `<hr/>` se muestra como una línea horizontal en el navegador.)*
 
@@ -128,10 +125,7 @@ La clase `A` define `miFuncion()`, y dos métodos que la invocan: `otraFuncion()
 
 **🖼️ Resultado:**
 
-```
-Con static:: -> B
-Con self:: -> A
-```
+<img width="592" height="68" alt="image" src="https://github.com/user-attachments/assets/d239ce04-38d7-49ef-bfb8-b13bf2c09709" />
 
 ---
 
@@ -143,9 +137,8 @@ Se declara `final class Coche` y luego se intenta heredar con `class cocheDeLujo
 
 **🖼️ Resultado:**
 
-```
-Fatal error: Class cocheDeLujo cannot extend final class Coche in ... on line 11
-```
+<img width="869" height="86" alt="image" src="https://github.com/user-attachments/assets/f59afe04-e370-4a91-8bef-a5b3236ed205" />
+
 
 Para poder heredar la clase bastaría con quitar la palabra `final`.
 
@@ -164,9 +157,7 @@ La clase `Circulo` recibe un radio (`private float $radio`) en el constructor y 
 
 **🖼️ Resultado:**
 
-```
-Área del círculo: 	50.27 Perímetro del círculo: 	 25.13
-```
+<img width="539" height="58" alt="image" src="https://github.com/user-attachments/assets/8a5ad99d-00ae-4e79-8a93-89fadb57a9bf" />
 
 ---
 
@@ -186,28 +177,13 @@ Las propiedades están tipadas (`string`, `float`, `int`) y los getters declaran
 
 **🖼️ Resultado `Docente.php`:**
 
-```
-El nombre del docente es: María
-El apellido del docente es: Gómez
-La fecha de nacimiento del docente es: 1985-03-20
-El código del docente es: D-001
-El departamento del docente es: Computación y Sistemas
-La categoría del docente es: Titular
-El máximo título académico del docente es: Magíster
-El tipo de contratación del docente es: Tiempo Completo
-```
+<img width="547" height="146" alt="image" src="https://github.com/user-attachments/assets/bfc21896-9e43-445b-8db2-b6ad000e1d76" />
+
 
 **🖼️ Resultado `Estudiante.php`:**
 
-```
-El nombre del estudiante es: Juan
-El apellido del estudiante es: Pérez
-La fecha de nacimiento del estudiante es: 2000-05-15
-El índice académico del estudiante es: 3.5
-El cohorte del estudiante es: 2023
-El estado académico del estudiante es: 1
-La modalidad de estudio del estudiante es: 2
-```
+<img width="564" height="141" alt="image" src="https://github.com/user-attachments/assets/849ddf40-79f6-4ecc-8ef7-5856ca349671" />
+
 
 ## ⚠️ Dificultades y Soluciones
 
